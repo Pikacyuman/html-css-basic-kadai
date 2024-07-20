@@ -4,6 +4,7 @@ h1 {
 }
 p {
     margin: 0%;
+    font-size: 20px;
 }
 body {
     margin: 0%;
@@ -20,7 +21,7 @@ main {
 
 #parent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contents {
@@ -53,14 +54,13 @@ footer {
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 20px;
 }
-
-a:hover {
-    color: rgb(245, 178, 168);
-}
-
 a:visited {
     color: rgb(193, 234, 251);
+}
+a:hover {
+    color: rgb(245, 178, 168);
 }
 @media screen and (max-width: 768px) {
     h2 {
@@ -75,4 +75,4 @@ a:visited {
       display: flex;
       flex-direction: column;
     }
-  }
+}
